@@ -275,7 +275,7 @@
             "[resourceId('Microsoft.Web/Sites/', variables('webSiteName'))]"
           ],
           "properties": {
-            "ApplicationInsights:InstrumentationKey": "[reference(resourceId('Microsoft.Insights/components', variables('applicationInsightName')), '2014-04-01').InstrumentationKey]",
+            "InstrumentationKey": "[reference(resourceId('Microsoft.Insights/components', variables('applicationInsightName')), '2014-04-01').InstrumentationKey]",
             "DefaultConnection": "[concat('Data Source=tcp:', reference(resourceId('Microsoft.Sql/servers/', variables('sqlserverName'))).fullyQualifiedDomainName, ',1433;Initial Catalog=DigitalMarketingDB;User Id=', parameters('administratorLogin'), '@', variables('sqlserverName'), ';Password=', parameters('administratorLoginPassword'), ';')]",
             "CDNRoot": "[concat('https://', reference(resourceId('Microsoft.Cdn/profiles/endpoints', variables('cdnprofileName'), variables('cdnprofileendpointsName'))).hostName)]",
             "CacheConnection": "[concat(reference(resourceId('Microsoft.Cache/redis', variables('rediscacheName'))).hostName, ':', reference(resourceId('Microsoft.Cache/redis', variables('rediscacheName'))).sslPort, ',password=', listkeys(resourceId('Microsoft.Cache/redis', variables('rediscacheName')), providers('Microsoft.Cache', 'redis').apiVersions[0]).primaryKey, ',ssl=True,abortConnect=False,syncTimeout=2000,allowAdmin=true')]",
