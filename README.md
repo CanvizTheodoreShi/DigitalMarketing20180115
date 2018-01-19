@@ -30,14 +30,13 @@ Follow the instructions below is to authorize your Azure subscription to access 
    - Click **Edit**.
    - Paste the token into the **token** property.
 
-   ![](Images/update-github-token-in-azure-resource-explorer.png)
+     ![](Images/update-github-token-in-azure-resource-explorer.png)
 
    - Click **PUT**
 
 
 
-
-## Deploy the Azure Components from GitHub ##
+## Deploy Components to Azure ##
 
 1. Fork this repository to your GitHub account.
 
@@ -61,7 +60,7 @@ Follow the instructions below is to authorize your Azure subscription to access 
 
    - **Source Code Branch**: Leave it as `master`.
 
-   - **Source Code Manual Integration**: Choose **false**, since you are deploying from your own fork.
+   - **Source Code Manual Integration**: Choose **false**, as you are deploying from your own fork.
 
    - Check **I agree to the terms and conditions stated above**.
 
