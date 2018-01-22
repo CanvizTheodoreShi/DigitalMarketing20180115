@@ -4,7 +4,7 @@
 
 Follow the instructions below to authorize your Azure subscription to access your GitHub, also an alternative way is to add GitHub integration to another web app manually in your web app blade, then Azure will add the authorization for you automatically.
 
-> **Note:** Skip this section if you ever initegrated your GitHub account with your Azure subscription before.
+> **Note:** Skip this section if you ever integrated your GitHub account with your Azure subscription before.
 
 1. Generate Token.
 
@@ -32,7 +32,7 @@ Follow the instructions below to authorize your Azure subscription to access you
 
      ![](Images/update-github-token-in-azure-resource-explorer.png)
 
-   - Click **PUT**
+   - Click **PUT**.
 
 
 
