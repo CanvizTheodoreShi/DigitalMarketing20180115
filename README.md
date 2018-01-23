@@ -66,4 +66,4 @@ Follow the instructions below to authorize your Azure subscription to access you
 
 4. Click **Purchase**.
 
-> **Note:** The static files (JS/CSS) hosted on CDN might not take effect immediately, so you might see the page layout is messing up until hours later.
+> **Note:** The static files (JS/CSS) hosted on CDN might not take effect immediately, so you might see the page layout of the newly created website is messing up until hours later.
